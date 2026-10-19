@@ -1,0 +1,23 @@
+/home/mikail/.jdks/openjdk-26.0.1/bin/java -javaagent:/opt/idea-IU-262.8665.258/lib/idea_rt.jar=43211 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /home/mikail/Downloads/market-pulse-innopolis-seminar_6_final/advanced/target/classes:/home/mikail/.m2/repository/org/openjdk/jol/jol-core/0.17/jol-core-0.17.jar:/home/mikail/.m2/repository/info/picocli/picocli/4.7.7/picocli-4.7.7.jar:/home/mikail/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/home/mikail/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/home/mikail/.m2/repository/io/vavr/vavr/1.0.1/vavr-1.0.1.jar:/home/mikail/.m2/repository/io/vavr/vavr-match/1.0.0/vavr-match-1.0.0.jar:/home/mikail/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/mikail/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar:/home/mikail/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/mikail/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/mikail/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/mikail/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/mikail/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/mikail/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/mikail/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/mikail/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/mikail/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/mikail/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/mikail/.m2/repository/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar academy.backend.market_pulse.demo.StreamDemo
+======== 1. Топ-3 облигации по купону (купон больше 8%) ========
+  [OFZ29006 — ОФЗ 29006 (Облигация, купон: 11.2%, погашение: 2035), OFZ29011 — ОФЗ 29011 (Облигация, купон: 10.4%, погашение: 2038), OFZ26228 — ОФЗ 26228 (Облигация, купон: 9.8%, погашение: 2031)]
+======== 2. Тикеры акций финансового сектора по алфавиту ========
+  [SBER, TCSG, VTBR]
+======== 3. Сколько акций в каждом секторе ========
+  {Телеком=1, Финансы=3, Металлургия=3, Технологии=6, Добыча=2, Энергетика=6, Потребление=2}
+======== 4. Средний купон по всем облигациям ========
+  7.52
+======== 5. Акция с максимальной дивидендной доходностью ========
+  NLMK
+======== 6. Все валюты, в которых есть инструменты ========
+  [RUB, USD, EUR]
+======== 7. Тикеры всех ETF через запятую ========
+  FXUS, FXRL, FXMM, SBGB, FXGD, FXIT, FXCN, FXDE, FXKZ, TSPX
+======== 8. По типу → топ-3 тикера по алфавиту в каждой группе ========
+  {Etf=[FXCN, FXDE, FXGD], Bond=[OFZ26215, OFZ26218, OFZ26221], Stock=[AAPL, ALRS, CHMF]}
+======== 9. Облигация с самым ранним погашением ========
+  RUS25
+======== 10. По сектору → лучшая по дивидендам в каждом ========
+  {Телеком=MTSS — МТС (Акция, сектор: Телеком), Финансы=SBER — Сбербанк (Акция, сектор: Финансы), Металлургия=NLMK — НЛМК (Акция, сектор: Металлургия), Технологии=MSFT — Microsoft (Акция, сектор: Технологии), Добыча=ALRS — Алроса (Акция, сектор: Добыча), Энергетика=TATN — Татнефть (Акция, сектор: Энергетика), Потребление=MGNT — Магнит (Акция, сектор: Потребление)}
+
+Process finished with exit code 0
